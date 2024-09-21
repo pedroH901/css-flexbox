@@ -313,7 +313,6 @@ hr {
 
 }
 
-
 .container-flexwrap-nowrap {
     display: flex;
     flex-direction: row;
@@ -340,6 +339,64 @@ hr {
 
 }
 
+.container-flexwrap-wrap-reverse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    /*indiferente para o flex*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-flexwrap-wrap-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*indiferente para o flex*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-flexwrap-wrap-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*indiferente para o flex*/
+    background-color: antiquewhite;
+    padding: 16px 16px 16px 16px;
+    height: 500px;
+
+}
+
+.nome-da-propriedade-shorthand {
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 183, 6);
+    padding: 20px;
+}
 
 
+.container-flexflow-row-nowrap {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    flex-flow: row nowrap;
+    /*indiferente para o flex*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
 
+}
